@@ -1,0 +1,11 @@
+﻿body {
+}
+
+.jumbotron {
+    background-image: url('Photos/rowan-heuvel-bjej8BY1JYQ-unsplash.jpg');
+    background-size: cover;
+}
+
+.headingText {
+    color: white;
+}

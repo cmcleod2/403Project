@@ -97,6 +97,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Client.cs" />
+    <Compile Include="Models\Employees.cs" />
     <Compile Include="Models\Position.cs" />
     <Compile Include="Models\ProjectType.cs" />
     <Compile Include="Models\Status.cs" />

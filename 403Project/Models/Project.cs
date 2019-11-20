@@ -1,86 +1,90 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
+using System.Web.Mvc;
 
 namespace _403Project.Models
 {
-    //[Table("Projects")]
+    [Table("Projects")]
     public class Project
     {
-        //[Key]
-        //[DisplayName("Project ID")]
-        //[HiddenInput(DisplayValue = false)]
+        [Key]
+        [DisplayName("Project ID")]
+        [HiddenInput(DisplayValue = false)]
         public int ProjectID { get; set; }
 
-        //[Required]
-        //[DisplayName("Budgeted Hours")]
+        [Required]
+        [DisplayName("Budgeted Hours")]
         public float BudgetedHours { get; set; }
 
-        //[DisplayName("Actual Hours")]
+        [DisplayName("Actual Hours")]
         public float? ActualHours { get; set; }
 
-        //[Required]
-        //[DisplayName("Budgeted Calendar Days")]
+        [Required]
+        [DisplayName("Budgeted Calendar Days")]
         public float BudgetedCalDays { get; set; }
 
-        //[DisplayName("Actual Calendar Days")]
+        [DisplayName("Actual Calendar Days")]
         public float ActualCalDays { get; set; }
 
-        //[DisplayName("Deposit Date")]
+        [DisplayName("Deposit Date")]
         public DateTime? DepositDate { get; set; }
 
-        //[DisplayName("Begin Date")]
+        [DisplayName("Begin Date")]
         public DateTime? BeginDate { get; set; }
 
-        //[DisplayName("Date Completed")]
+        [DisplayName("Date Completed")]
         public DateTime? CompletedDate { get; set; }
 
-        //[DisplayName("Date Paid")]
+        [DisplayName("Date Paid")]
         public DateTime? PaidDate { get; set; }
 
-        //[DisplayName("Date Delivered")]
+        [DisplayName("Date Delivered")]
         public DateTime? DeliveredDate { get; set; }
 
-        //[DisplayName("Bid price")]
+        [DisplayName("Bid price")]
         public float? BidPrice { get; set; }
 
-        //[DisplayName("Final Price")]
+        [DisplayName("Final Price")]
         public float? ProjectPrice { get; set; }
 
-        //[Required]
-        //[DisplayName("Deposit Paid")]
+        [Required]
+        [DisplayName("Deposit Paid")]
         public Boolean DepositPaid { get; set; }
 
-        //[Required]
-        //[DisplayName("Paid in Full")]
+        [Required]
+        [DisplayName("Paid in Full")]
         public Boolean PaidInFull { get; set; }
 
-        //[DisplayName("Square Footage")]
+        [DisplayName("Square Footage")]
         public float? SquareFoot { get; set; }
 
-        //[DisplayName("Deck Size Square Footage")]
+        [DisplayName("Deck Size Square Footage")]
         public float? DeckSize { get; set; }
 
-        //[DisplayName("Hand Framed Living Space Roof")]
+        [DisplayName("Hand Framed Living Space Roof")]
         public Boolean? HandFramedLivRoof { get; set; }
 
-        //[DisplayName("Structure in Snow Country")]
+        [DisplayName("Structure in Snow Country")]
         public Boolean? SnowCountry { get; set; }
 
-        //[DisplayName("Insulated Concrete Forms")]
+        [DisplayName("Insulated Concrete Forms")]
         public Boolean? InsConcreteForms { get; set; }
 
-        //[DisplayName("Client ID")]
+        [DisplayName("Client ID")]
         public int? ClientID { get; set; }
 
-        //[DisplayName("Structure Type ID")]
+        [DisplayName("Structure Type ID")]
         public int? STypeID { get; set; }
 
-        //[DisplayName("Project Type ID")]
+        [DisplayName("Project Type ID")]
         public int? PTypeID { get; set; }
 
-        //[DisplayName("Status ID")]
+        [DisplayName("Status ID")]
         public int? StatusID { get; set; }
 
 

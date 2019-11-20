@@ -9,3 +9,75 @@
 .headingText {
     color: white;
 }
+
+.SignInButton {
+    position: absolute;
+    width: 167px;
+    height: 64px;
+    left: 1000px;
+    top: 464px;
+}
+.SignInBox {
+    position: absolute;
+    width: 623px;
+    height: 285px;
+    left: 772px;
+    top: 127px;
+}
+
+.Rectangle1 {
+    position: absolute;
+    width: 1440px;
+    height: 75px;
+    left: 0px;
+    top: 0px;
+}
+
+background: #000000;
+
+.Banner {
+    position: absolute;
+    width: 460px;
+    height: 64px;
+    left: 0px;
+    top: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #3C82A6;
+}
+
+.SignInTextBox {
+    position: absolute;
+    width: 143px;
+    height: 27px;
+    left: 1222px;
+    top: 24px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #3C82A6;
+}
+
+.Ellipse1 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 1365px;
+    top: 7px;
+}
+
+.Background {
+    background-image:;
+    color: #C4C4C4;
+}

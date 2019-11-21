@@ -9,12 +9,13 @@ using System.Web.Mvc;
 
 namespace _403Project.Models
 {
-    [Table("Statuses")]
+    //These will be included later when we add the database
+    //[Table("Statuses")]
     public class Status
     {
-        [Key]
-        [HiddenInput(DisplayValue = false)]
-        public int StatusID { get; set; }
+        //[Key]
+        //[HiddenInput(DisplayValue = false)]
+        public int StatusKey { get; set; }
 
         [Required(ErrorMessage = "Please enter the project type")]
         [StringLength(25, MinimumLength = 5)]

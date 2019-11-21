@@ -1,0 +1,38 @@
+﻿@model IEnumerable<_403Project.Models.Status>
+
+@{
+    ViewBag.Title = "Statuses";
+}
+
+<div class="jumbotron" style="background-color: transparent">
+    <body class="Body">
+        <div class="HeadingBox">
+            <table class="table AboutText">
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.StatusKey)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.StatusDesc)
+                    </th>
+                    <th></th>
+                </tr>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.StatusKey)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.StatusDesc)
+                        </td>
+                        <td>
+                            @Html.ActionLink("Edit", "EditStatus", new { id = item.StatusKey })
+                    </tr>
+                }
+
+            </table>
+        </div>
+    </body>
+</div>

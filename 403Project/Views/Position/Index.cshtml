@@ -1,0 +1,35 @@
+﻿@model IEnumerable<_403Project.Models.Position>
+
+@{
+    ViewBag.Title = "Positions";
+}
+
+<h2>Index</h2>
+
+<div class="jumbotron" style="background-color: transparent">
+    <body class="Body">
+        <div class="HeadingBox">
+            <table class="table AboutText">
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.PositionKey)
+                    </th>
+                    <th></th>
+                </tr>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.PositionDesc)
+                        </td>
+                        <td>
+                            @Html.ActionLink("Edit", "EditPosition", new { id = item.PositionKey })
+                        </td>
+                    </tr>
+                }
+
+            </table>
+        </div>
+    </body>
+</div>

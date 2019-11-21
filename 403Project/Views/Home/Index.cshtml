@@ -1,4 +1,9 @@
-﻿
+﻿<!--
+    This page will be used to CRUD and display projects for South Fork Design.
+    For this project, we did not add the database, so we chose to work only with the
+    position and status tables. These are the tables that can be edited currently through a list
+-->
+
 @{
     ViewBag.Title = "Index";
 }
@@ -14,6 +19,8 @@
                 @Html.ActionLink("About", "About", "Home")<br />
                 @Html.ActionLink("Sign In", "Login", "Home")<br />
                 @Html.ActionLink("Contact", "Contact", "Home")<br />
+                @Html.ActionLink("Positions", "Index", "Position")<br />
+                @Html.ActionLink("Statuses", "Index", "Status")
             </div>
         </div>
 

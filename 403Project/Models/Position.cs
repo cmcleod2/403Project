@@ -9,15 +9,16 @@ using System.Web.Mvc;
 
 namespace _403Project.Models
 {
-    [Table("Owner")]
+    //Database inputs will be added later in project 2.
+    //[Table("Owner")]
     public class Position
     {
-        [Key]
-        [HiddenInput(DisplayValue = false)]
-        public int PositionID { get; set; }
+        //[Key]
+        //[HiddenInput(DisplayValue = false)]
+        public int PositionKey { get; set; }
 
         [Required(ErrorMessage = "Please enter the position description")]
-        [DisplayName("Position Description")]
+        [DisplayName("Description")]
         [StringLength(30, MinimumLength = 5)]
         public string PositionDesc { get; set; }
 

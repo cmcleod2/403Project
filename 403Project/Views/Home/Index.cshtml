@@ -6,8 +6,16 @@
     <link href="~/Content/MyStyles.css" rel="stylesheet" />
 </head>
 
-<body>
-    <div class="jumbotron headingText">
-        <h1 class="headingText">Welcome to SouthFork</h1>
+<body class="IndexBody">
+    <div class="jumbotron" style="background-color: transparent;">
+        <div class="HeadingBox">
+            <h1 class="headingText">Welcome to South Fork</h1>
+            <div class="IndexText">
+                @Html.ActionLink("About", "About", "Home")<br />
+                @Html.ActionLink("Sign In", "Login", "Home")<br />
+                @Html.ActionLink("Contact", "Contact", "Home")<br />
+            </div>
+        </div>
+
     </div>
 </body>

@@ -83,12 +83,28 @@
 .AboutBox {
     background-color: #efefef;
     position: absolute;
-    top: 15%;
-    right: 15%;
-    left: 33%;
+    top: 20%;
+    right: 10%;
+    left: 50%;
     border-radius: 10px;
     box-shadow: 10px 10px 5px grey;
     
 }
 
+.AboutText {
+    padding: 1%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+}
 
+.AboutImage {
+    position: relative;
+    left: 0%;
+    top: 0%;
+    width: 45%;
+}
+
+.Footer {
+    position: absolute;
+    bottom: 3%;
+}

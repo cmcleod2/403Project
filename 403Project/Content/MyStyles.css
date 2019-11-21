@@ -7,7 +7,21 @@
 }
 
 .headingText {
-    color: white;
+    padding: 10px;
+    color: #3c82a6;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.AboutHeadingText {
+    padding: 10px;
+    color: #efefef;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.HeadingBox {
+    background-color: #efefef;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px grey;
 }
 
 .SignInButton {
@@ -109,4 +123,17 @@
 .Footer {
     position: absolute;
     bottom: 3%;
+}
+
+.IndexBody {
+    background-image: url('Photos/rowan-heuvel-bjej8BY1JYQ-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.IndexText {
+    padding: 75px;
+    color: #3c82a6;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
 }

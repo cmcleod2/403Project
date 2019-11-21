@@ -137,3 +137,25 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 24px;
 }
+
+.ChrisDiv {
+    position: relative;
+    right: 10px;
+    background-color: #3C82A6;
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+
+.ChrisButton {
+    position: relative;
+    width: 100px;
+    height: 45px;
+    background: #3C82A6;
+    border-radius: 20px;
+}
+
+#SignInPos {
+    text-align: center;
+}

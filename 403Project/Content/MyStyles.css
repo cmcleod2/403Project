@@ -1,7 +1,7 @@
 ﻿body {
 }
 
-.jumbotron {
+.jumbotronPic {
     background-image: url('Photos/rowan-heuvel-bjej8BY1JYQ-unsplash.jpg');
     background-size: cover;
 }
@@ -93,4 +93,24 @@
     
 }
 
+.ChrisDiv {
+    position: relative;
+    right: 10px;
+    background-color: #3C82A6;
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
 
+.ChrisButton {
+    position: relative;
+    width: 100px;
+    height: 45px;
+    background: #3C82A6;
+    border-radius: 20px;
+}
+
+#SignInPos {
+    text-align: center;
+}

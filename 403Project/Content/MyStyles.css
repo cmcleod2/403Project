@@ -1,7 +1,7 @@
 ﻿body {
 }
 
-.jumbotron {
+.jumbotronPic {
     background-image: url('Photos/rowan-heuvel-bjej8BY1JYQ-unsplash.jpg');
     background-size: cover;
 }
@@ -11,11 +11,13 @@
 }
 
 .SignInButton {
-    position: absolute;
+    position: relative;
     width: 167px;
     height: 64px;
     left: 1000px;
     top: 464px;
+    background: #3C82A6;
+    border-radius: 20px;
 }
 .SignInBox {
     position: absolute;

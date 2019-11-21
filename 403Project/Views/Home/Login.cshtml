@@ -3,5 +3,26 @@
     ViewBag.Title = "Login";
 }
 
-<h2>Login</h2>
+<head>
+    <link href="~/Content/MyStyles.css" rel="stylesheet" />
+</head>
+<body style="background-image: url('../../Content/Photos/NiceHouse.jpg'); background-size: cover; background-repeat: no-repeat;">
+    
+    <h2>Login</h2>
+    <div class="jumbotron">
+        <label for="User">
+            Email Address
+        </label>
+        <br />
+        <input type="text" placeholder="Enter Email" name="User"/>
+        <br />
+        <label for="Pass">
+            Password
+        </label>
+        <br />
+        <input type="password" placeholder="Enter Password" name="Pass"/>
+        <input type="button" value="Sign In" class="SignInButton" />
+    </div>
+</body>
 
+<!---->

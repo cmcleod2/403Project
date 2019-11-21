@@ -33,9 +33,8 @@
     height: 75px;
     left: 0px;
     top: 0px;
+    background: #3c82a6;
 }
-
-background: #000000;
 
 .Banner {
     position: absolute;
@@ -79,7 +78,19 @@ background: #000000;
     top: 7px;
 }
 
-.Background {
-    background-image:;
-    color: #C4C4C4;
+.Body {
+    background-color: #3c82a6;
 }
+
+.AboutBox {
+    background-color: #efefef;
+    position: absolute;
+    top: 15%;
+    right: 15%;
+    left: 33%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px grey;
+    
+}
+
+
